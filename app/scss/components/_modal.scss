@@ -1,0 +1,117 @@
+.modal {
+  // position: fixed
+  // z-index: -5
+  // left: 50%
+  // top: 50%
+  // transform: translate(-50%, -50%)
+  width: 29rem;
+  border-radius: .5rem;
+  background-color: red;
+  overflow: hidden;
+}
+//   +m(768)
+//     width: 57.7rem
+//     height: 33.5rem
+//   +m(1900)
+//     width: 77.7rem
+//     height: 53.5rem
+//   &__close
+//     position: absolute
+//     top: 1.5rem
+//     right: 1.5rem
+//     z-index: 2
+//     width: 1.8rem
+//     height: 1.8rem
+//     background-color: transparent
+//     cursor: pointer
+//     &:before
+//       content: ''
+//       position: absolute
+//       top: 0
+//       left: 0
+//       width: 3rem
+//       height: 0.3rem
+//       background-color: $white
+//       transform: rotate(45deg)
+//       transform-origin: top left
+//       +m(768)
+//         background-color: $dark
+//     &:after
+//       content: ''
+//       position: absolute
+//       top: 0
+//       left: 0
+//       width: 3rem
+//       height: 0.3rem
+//       background-color: $white
+//       transform: rotate(-45deg) translate(-0.8rem, -0.8rem)
+//       transform-origin: top right
+//       +m(768)
+//         background-color: $dark
+//   &__img
+//     position: relative
+//     width: 100%
+//     height: 0
+//     padding-bottom: 50%
+//     +m(768)
+//       width: 50%
+//       height: 33.5rem
+//       float: left
+//     &_application
+//       background: url(../img/images/application.jpg) 50% 50% no-repeat
+//       background-size: cover
+//       +m(768)
+//         background: url(../img/images/application-desk.jpg) 50% 50% no-repeat
+//         background-size: cover
+//     &_call
+//       background: url(../img/images/call.jpg) 50% 50% no-repeat
+//       background-size: cover
+//       +m(768)
+//         background: url(../img/images/call-desk.jpg) 50% 50% no-repeat
+//         background-size: cover
+//     img 
+//       position: absolute
+//       width: 100%
+//       height: 100%
+//       object-fit: cover
+//   &__form
+//     padding: 1.5rem
+//     +m(768)
+//       width: 50%
+//       height: 33.5rem
+//       float: right
+//   .custom__submit
+//     border-radius: .2rem
+//     margin-top: 4rem
+//     margin-bottom: 1.5rem
+//   &__answer
+//     display: flex
+//     align-items: center
+//     justify-content: center
+//     height: 29.3rem
+//     +m(768)
+//       width: 50%
+//       height: 33.5rem
+//   &__answer-box
+//     display: flex
+//     flex-flow: column wrap
+//     justify-content: center
+//     align-items: center
+//     padding: 1.5rem
+//   &__answer-text
+//     display: inline-block
+//     margin-top: 2rem
+//     +font-tenor-sans-reg
+//     font-size: 2rem
+//     text-align: center
+//     +m(768)
+//       font-size: 2.4rem
+//       line-height: 2.8rem
+
+// .call-modal__form
+//   +m(768)
+//     padding-top: 8rem
+
+// .application__form
+//   +m(768)
+//     padding-top: 4rem

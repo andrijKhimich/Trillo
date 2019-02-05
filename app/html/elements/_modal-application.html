@@ -1,0 +1,23 @@
+  <div class="modal modal-application" id="application">
+  <button class="modal__close" data-izimodal-close="">
+  </button>
+  <div class="modal__img modal__img_application"></div>
+  <form action="send.php" class="application__form modal__form" data-validate>
+    <div class="custom__input-box">
+      <input type="text" name="application-name" class="custom__input" id="application-name">
+      <label for="application-name" class="custom__label">Имя</label>
+      <span class="custom__form-border"></span>
+    </div>
+    <div class="custom__input-box">
+      <input class="custom__input" type="tel" name="call-tel" id="call-tel" pattern="(\+?\d[- .]*){7,13}" required>
+      <label class="custom__label" for="call-tel">Телефон</label>
+      <span class="custom__form-border"></span>
+    </div>
+    <div class="custom__input-box">
+      <input type="email" name="application-email" class="custom__input" id="application-email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+      <label for="application-email" class="custom__label">Email</label>
+      <span class="custom__form-border"></span>
+    </div>
+    <input class="btn application__submit custom__submit" type="submit" value="Отправить">
+  </form>
+</div>

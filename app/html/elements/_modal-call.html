@@ -1,0 +1,18 @@
+<div class="modal modal-call" id="call">
+  <button class="modal__close" data-izimodal-close="">
+  </button>
+  <div class="modal__img modal__img_call"></div>
+  <form action="send.php" class="call-modal__form modal__form" data-validate>
+    <div class="custom__input-box">
+      <input type="text" name="call-modal-name" class="custom__input" id="call-modal-name">
+      <label for="call-modal-name" class="custom__label">Имя</label>
+      <span class="custom__form-border"></span>
+    </div>
+    <div class="custom__input-box">
+      <input class="custom__input" type="tel" name="call-tel" id="call-modal-tel" pattern="(\+?\d[- .]*){7,13}" required>
+      <label class="custom__label" for="call-modal-tel">Телефон</label>
+      <span class="custom__form-border"></span>
+    </div>
+    <input class="btn call-modal__submit custom__submit" type="submit" value="Позвонить мне">
+  </form>
+</div>

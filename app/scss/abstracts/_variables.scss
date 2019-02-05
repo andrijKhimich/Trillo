@@ -1,0 +1,25 @@
+// project fonts
+$font-main: "Open Sans",
+'Arial',
+sans-serif;
+// $font-second: "RobotoSlab", 'Arial', sans-serif;
+
+// project colors css variant
+:root {
+  --color-primary: #eb2f64;
+  --color-primary-light: #ff3366;
+  --color-primary-dark: #ba265d;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #cccccc;
+
+  --color-grey-dark-1: #333333;
+  --color-grey-dark-2: #777777;
+  --color-grey-dark-3: #999999;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .25);
+  --line: 1px solid var(--color-grey-light-2);
+}
