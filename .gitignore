@@ -2,3 +2,4 @@ node_modules/
 build/
 *.bowerrc
 package-lock.json
+app/scss/libs
